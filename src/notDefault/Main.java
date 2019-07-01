@@ -4,9 +4,9 @@ import java.io.*;
 
 public class Main {
 	//makes the program look through all files from 0.txt to <fileCount - 1>.txt
-	public static final int fileCount = 12;
+	public static final int fileCount = 3;
 	//prints "Combined usage for " + format + " stats)" at the top of the output file
-	public static final String format = "ADV/RSE OU (1760";
+	public static final String format = "PU (1630";
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
@@ -40,7 +40,7 @@ public class Main {
         DoubleString.sort(array, true);
         //creates (or overwrites, if it's already created) the output file
         PrintWriter output = new PrintWriter(new BufferedWriter(new FileWriter("output.txt")));
-        output.println("Combined usage for " + format + " stats)\n" + 
+        output.println("[hide=" + format + " stats)][code]Combined usage for " + format + " stats)\n" + 
         		"+ ---- + ------------------ + ------- +\n" + 
         		"| Rank | Pokemon            | Percent |\n" + 
         		"+ ---- + ------------------ + ------- +");
