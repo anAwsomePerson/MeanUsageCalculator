@@ -1,5 +1,5 @@
 # Mean Usage Calculator
-This program takes any combination of Pokemon usage files from smogon.com/stats/ and finds the mean usage for each Pokemon across all the files you put into the program. I couldn't make a nice usage calculator. Sorry :(
+This program takes any combination of Pokemon usage files from smogon.com/stats/ and finds the mean usage for each Pokemon across all the files you put into the program. 
 
 Note that each file gets the exact same weight when calculating means, so stuff like number of battles is completely ignored. It also truncates numbers to 3 decimal places, so any numbers in the output file can be up to 0.001% off. 
 
