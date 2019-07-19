@@ -4,9 +4,9 @@ import java.io.*;
 
 public class Main {
 	//makes the program look through all files from 0.txt to <fileCount - 1>.txt
-	public static final int fileCount = 3;
+	public static final int fileCount = 8;
 	//prints "Combined usage for " + format + " stats)" at the top of the output file
-	public static final String format = "PU (1630";
+	public static final String format = "DPP OU (1630";
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
